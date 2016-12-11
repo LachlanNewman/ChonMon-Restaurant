@@ -1,0 +1,31 @@
+.reviewsjumbotron{
+	margin: auto;
+	width: 80%;
+	margin-top: 5%;
+	letter-spacing: 2px;
+}
+
+.fa-star{
+	display: inline;
+}
+
+h1{
+	text-decoration: underline;
+	    text-shadow: 2px 2px #A84136;
+}
+
+iframe{
+	width: 100%;
+}
+
+.fineprint{
+	font-size: xx-small !important;
+}
+
+.cookingopt{
+	border:solid 1px black;
+}
+
+.dropdown{
+	display: inline;
+}

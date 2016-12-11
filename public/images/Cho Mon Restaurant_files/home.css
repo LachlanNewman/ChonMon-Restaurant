@@ -1,0 +1,97 @@
+body { padding-top: 50px; }
+
+.navbar-brand{
+	padding: 0px 0px!important;
+	margin-left: 0px !important;
+	margin-right: 20px  !important;
+}
+#image{
+	background-image: url(../images/landingpage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+.homejumbotron{
+	letter-spacing: 3px;
+	padding: 1% 1% 5% 3%  !important;
+	width: 40%;
+	height: 70%;
+	background-color: #EEEEED;
+	opacity: 0.7;
+	margin-bottom: 0px !important;
+	
+}
+
+
+.center{
+	margin: auto;
+	height: 70% !important;
+}
+
+.photos-container{
+	background-color: #EEEEED;
+}
+
+.photo{
+	border: 1px solid black;
+	height: 20%;
+	width: 100%;
+}
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.blackboard{
+	background-image: url(../images/brd.jpg);
+	height: 100%;
+	width: 10%;
+	background-size: cover;
+	border-style: inset;
+}
+
+.headerimage{
+	height: 80%;
+	width: 100%;
+}
+
+.menu-container{
+	width: 100%;
+}
+
+.menu-image{
+	width: 100%
+}
+
+#menu{
+	margin: auto;
+	width: 100%;
+	background-color: #F8F8F8;
+	border: solid 1px black;
+
+}
+
+.menu-opt{
+	width: 15%;
+}
+.menu-opt a{
+	letter-spacing: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: x-large;
+}
+
+.social-media-button{
+	height: 90%;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.contactinfo{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	font-size: x-small !important;
+}
