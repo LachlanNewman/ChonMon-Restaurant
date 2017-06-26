@@ -1,0 +1,61 @@
+﻿#landingimg {
+    width:100%;
+    border: 1px solid black;
+    margin-top:50px;
+}
+
+#photos{
+    height:20%;
+    margin-top: 20px;
+}
+
+.photo{
+    height: 150px;
+    width: 100%;
+}
+
+#menuicons{
+    width: 60%;
+    height: 100%;
+}
+
+.iconrow{
+    height: 20% !important;
+    margin-top: 10%;
+}
+
+.col-md-4{
+    padding: 30px;
+}
+
+#contact-container{
+    background-color: black;
+    margin:auto 10px !important;
+
+}
+
+#contact-container *{
+    color:white;
+}
+
+.contact_details{
+    text-align:left !important;
+}
+
+.auto-style1 {
+    text-decoration: underline;
+    font-size: large;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.auto-style2 {
+    text-decoration: underline;
+    font-size: large;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px !important;
+    font-size: 40px;
+}
+
