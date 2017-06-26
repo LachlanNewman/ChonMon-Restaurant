@@ -8,14 +8,14 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
 
 
-<link href="css/media.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
     <link href="css/StyleSheet.css" type="text/css" rel="stylesheet" />
 </head>
     <script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.js"></script>
     <script type ="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type ="text/javascript" src="./public/js/sidebar.js"></script>
-
+    <script src="js/myjs.js"></script>
 
 
     
@@ -43,9 +43,9 @@
 
 			              <li><a href="./index.html">Home</a></li>
 			              <li><a href="#menus">Menus</a></li>
-			              <li><a href="./views/cookingclasses.html">Cooking Classes</a></li>
 			              <li><a href="#reviews">Reviews</a></li>
 			              <li><a href="#contactus">Contact Us</a></li>
+                          <li><a href="./views/cookingclasses.html">Cooking Classes</a></li>
 			          </ul>
                       </div>
 			    </div>
@@ -108,49 +108,49 @@
     <hr />
 
     <div class="container-fluid">
-    <p class="auto-style2">
+    <p class="auto-style2" id="menus">
         Menus</p>
         <div class="container" id="menuicons">
             <div class="row iconrow">
                 <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/WESTERNCUISINE_icon.jpg" />
+                    <a href="veiws/Menu.html#western"><img class="icon img-thumbnail" src="Menus/menuicons/WESTERNCUISINE_icon.jpg" /></a>
                     <p>Western Cuisine</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/SEAFOODMAIN-icon.jpg" />
+                    <a href="veiws/Menu.html#seafood"><img class="icon img-thumbnail" src="Menus/menuicons/SEAFOODMAIN-icon.jpg" /></a>
                     <p>Seafood</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/MAINMEAT-icon.jpg" />
+                    <a href="veiws/Menu.html#meat"><img class="icon img-thumbnail" src="Menus/menuicons/MAINMEAT-icon.jpg" /></a>
                     <p>Mains</p>
                 </div>
                 </div>
                 <div class="row iconrow">
                     <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/BREAKFAST-icon.jpg" />
+                    <a href="veiws/Menu.html#breakfast"><img class="icon img-thumbnail" src="Menus/menuicons/BREAKFAST-icon.jpg" /></a>
                     <p>Breakfast</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/SOUPS-icon.jpg" />
+                    <a href="veiws/Menu.html#soups"><img class="icon img-thumbnail" src="Menus/menuicons/SOUPS-icon.jpg" /></a>
                     <p>Soups</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/SPECIALITIES-icon.jpg" />
+                    <a href="veiws/Menu.html#special"><img class="icon img-thumbnail" src="Menus/menuicons/SPECIALITIES-icon.jpg" /></a>
                     <p>Specialties</p>
                 </div>
 
             </div>
             <div class="row iconrow">
                 <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/APPETIZERS-icon.jpg" />
+                    <a href="veiws/Menu.html#appetisers"><img class="icon img-thumbnail" src="Menus/menuicons/APPETIZERS-icon.jpg" /></a>
                     <p>Appetisers</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/DESSERTS-icon.jpg" />
+                    <a href="veiws/Menu.html#desserts"><img class="icon img-thumbnail" src="Menus/menuicons/DESSERTS-icon.jpg" /></a>
                     <p>Desserts</p>
                 </div>
                 <div class="col-md-4">
-                    <img class="icon img-thumbnail" src="Menus/menuicons/KIDS-icon.jpg" />
+                    <a href="veiws/Menu.html#kids"><img class="icon img-thumbnail" src="Menus/menuicons/KIDS-icon.jpg" /></a>
                     <p>Kids</p>
                 </div>
 
@@ -160,7 +160,7 @@
     <hr />
     <hr />
 
-    <p class="auto-style2">
+    <p class="auto-style2" id="reviews">
         Reviews
     </p>
     <div class="container">
@@ -255,7 +255,7 @@
     <hr />
 
     <div id="contact-container">
-        <p class="auto-style2">
+        <p class="auto-style2" id="contactus">
             Contact Us</p>
         <div class="container">
             <div class="row">
