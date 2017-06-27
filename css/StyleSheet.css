@@ -1,4 +1,4 @@
-﻿#landingimg {
+#landingimg {
     width:100%;
     border: 1px solid black;
     margin-top:50px;
@@ -17,6 +17,7 @@
 #menuicons{
     width: 60%;
     height: 100%;
+    margin: auto;
 }
 
 .iconrow{
@@ -26,6 +27,7 @@
 
 .col-md-4{
     padding: 30px;
+
 }
 
 #contact-container{
@@ -59,3 +61,6 @@
     font-size: 40px;
 }
 
+.img-thumbnail{
+    margin:auto 10px;
+}
