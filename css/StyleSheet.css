@@ -1,8 +1,15 @@
-#landingimg {
+#landingimg{
     width:100%;
     border: 1px solid black;
     margin-top:50px;
 }
+
+#iphonelanding {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
 
 #photos{
     height:20%;
@@ -22,6 +29,7 @@
 
 .iconrow{
     height: 20% !important;
+    margin-top: 10%;
 }
 
 #contact-container{
@@ -57,8 +65,8 @@
 
 .auto-style3 {
     font-size: large;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
